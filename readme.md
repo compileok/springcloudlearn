@@ -19,3 +19,10 @@ It is typically used for the following:
 
 Technically, bootstrap.yml is loaded by a parent Spring ApplicationContext. 
 That parent ApplicationContext is loaded before the one that uses application.yml.
+
+
+## config server 
+
+
+Spring Cloud Config Server provides an HTTP resource-based API for external configuration (name-value pairs or equivalent YAML content).
+The server is embeddable in a Spring Boot application, by using the @EnableConfigServer annotation. 
